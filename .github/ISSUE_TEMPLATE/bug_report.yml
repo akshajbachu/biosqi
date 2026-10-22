@@ -1,0 +1,39 @@
+name: Bug report
+description: Report something that is broken or behaves unexpectedly
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected to happen instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to reproduce
+      description: The command or code you ran. Attach a small synthetic or public example if the problem depends on data. Never upload identifiable patient data.
+      render: python
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Error output
+      description: Full traceback or log output.
+      render: text
+  - type: input
+    id: version
+    attributes:
+      label: biosqi version
+      placeholder: python -c "import biosqi; print(biosqi.__version__)"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Python version and operating system
+      placeholder: Python 3.12, macOS 15
+    validations:
+      required: true

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Documentation
+    url: https://akshajbachu.github.io/biosqi
+    about: Methodology, indicator definitions, validation protocol, and API reference.
+  - name: Report a security vulnerability
+    url: https://github.com/akshajbachu/biosqi/security/advisories/new
+    about: Please report vulnerabilities privately rather than in a public issue.

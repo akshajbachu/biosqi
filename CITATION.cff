@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use biosqi in research, please cite this software."
+title: "biosqi: Transparent biomedical signal-quality assessment"
+abstract: >-
+  biosqi is an open-source Python toolkit for explainable, calibrated
+  signal-quality assessment of ECG, PPG, and EEG recordings. It produces
+  window-aligned quality scores, sample-level masks, and per-window evidence
+  attributing poor quality to mains interference, baseline wander, clipping,
+  dropout, abnormal amplitude, or poor beat consistency.
+type: software
+authors:
+  - given-names: "Akshaj"
+    family-names: "Bachu"
+version: 0.1.0
+date-released: 2026-10-22
+license: MIT
+repository-code: "https://github.com/akshajbachu/biosqi"
+url: "https://akshajbachu.github.io/biosqi"
+keywords:
+  - biomedical signal processing
+  - signal quality index
+  - ECG
+  - PPG
+  - EEG
+  - explainability

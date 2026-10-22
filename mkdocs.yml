@@ -1,0 +1,34 @@
+site_name: biosqi
+site_description: Transparent biomedical signal-quality assessment
+site_url: https://akshajbachu.github.io/biosqi/
+site_author: Akshaj Bachu
+copyright: Copyright &copy; 2026 Akshaj Bachu
+repo_url: https://github.com/akshajbachu/biosqi
+repo_name: akshajbachu/biosqi
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.sections
+    - content.code.copy
+nav:
+  - Home: index.md
+  - Quickstart: quickstart.md
+  - Methodology: methodology.md
+  - Indicators: indicators.md
+  - Validation: validation.md
+  - Release: release.md
+  - API reference: api.md
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true

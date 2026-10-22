@@ -1,0 +1,7 @@
+{
+  "model": "biosqi-cinc2011-set-a-v1",
+  "threshold": 0.7,
+  "starts": [0, 1250, 2500, 3750, 5000, 6250, 7500],
+  "scores": [0.76470588, 0.2, 0.1, 0.2, 0.80555556, 0.91205212, 0.90350877],
+  "usable": [true, false, false, false, true, true, true]
+}

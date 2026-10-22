@@ -1,0 +1,25 @@
+import { fileURLToPath, URL } from "node:url";
+
+import react from "@vitejs/plugin-react";
+import { defineConfig } from "vitest/config";
+
+export default defineConfig({
+  plugins: [react()],
+  resolve: {
+    alias: { "@": fileURLToPath(new URL("./src", import.meta.url)) },
+  },
+  server: {
+    port: 5173,
+    proxy: { "/api": "http://127.0.0.1:8000" },
+  },
+  build: {
+    outDir: "../src/biosqi/server/static",
+    emptyOutDir: true,
+  },
+  test: {
+    environment: "jsdom",
+    setupFiles: "./src/test/setup.ts",
+    include: ["src/**/*.test.{ts,tsx}"],
+    css: true,
+  },
+});
