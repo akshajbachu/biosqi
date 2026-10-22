@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480">
+<rect width="100%" height="100%" fill="white"/>
+<text x="450.0" y="28" text-anchor="middle" font-family="sans-serif" font-size="18">Synthetic artifact detection by SNR</text>
+<line x1="72" y1="398.0" x2="852" y2="398.0" stroke="#e8e8e8"/>
+<text x="62" y="402.0" text-anchor="end" font-family="sans-serif" font-size="11">0.0</text>
+<line x1="72" y1="328.0" x2="852" y2="328.0" stroke="#e8e8e8"/>
+<text x="62" y="332.0" text-anchor="end" font-family="sans-serif" font-size="11">0.2</text>
+<line x1="72" y1="258.0" x2="852" y2="258.0" stroke="#e8e8e8"/>
+<text x="62" y="262.0" text-anchor="end" font-family="sans-serif" font-size="11">0.4</text>
+<line x1="72" y1="188.0" x2="852" y2="188.0" stroke="#e8e8e8"/>
+<text x="62" y="192.0" text-anchor="end" font-family="sans-serif" font-size="11">0.6</text>
+<line x1="72" y1="117.99999999999999" x2="852" y2="117.99999999999999" stroke="#e8e8e8"/>
+<text x="62" y="121.99999999999999" text-anchor="end" font-family="sans-serif" font-size="11">0.8</text>
+<line x1="72" y1="48.0" x2="852" y2="48.0" stroke="#e8e8e8"/>
+<text x="62" y="52.0" text-anchor="end" font-family="sans-serif" font-size="11">1.0</text>
+<text x="72.0" y="420" text-anchor="middle" font-family="sans-serif" font-size="11">-6</text>
+<text x="228.0" y="420" text-anchor="middle" font-family="sans-serif" font-size="11">0</text>
+<text x="384.0" y="420" text-anchor="middle" font-family="sans-serif" font-size="11">6</text>
+<text x="540.0" y="420" text-anchor="middle" font-family="sans-serif" font-size="11">12</text>
+<text x="696.0" y="420" text-anchor="middle" font-family="sans-serif" font-size="11">18</text>
+<text x="852.0" y="420" text-anchor="middle" font-family="sans-serif" font-size="11">24</text>
+<polyline points="72.0,48.0 228.0,48.0 384.0,48.0 540.0,68.2 696.0,146.4 852.0,199.5" fill="none" stroke="#2962ff" stroke-width="2"/>
+<text x="848" y="48" text-anchor="end" font-family="sans-serif" font-size="11" fill="#2962ff">baseline_wander</text>
+<polyline points="72.0,48.0 228.0,48.0 384.0,48.0 540.0,52.7 696.0,69.8 852.0,74.4" fill="none" stroke="#00a67d" stroke-width="2"/>
+<text x="848" y="64" text-anchor="end" font-family="sans-serif" font-size="11" fill="#00a67d">line_noise</text>
+<polyline points="72.0,52.7 228.0,130.8 384.0,189.6 540.0,240.5 696.0,263.6 852.0,249.8" fill="none" stroke="#e05252" stroke-width="2"/>
+<text x="848" y="80" text-anchor="end" font-family="sans-serif" font-size="11" fill="#e05252">motion</text>
+<polyline points="72.0,94.9 228.0,321.2 384.0,247.7 540.0,245.6 696.0,239.1 852.0,236.8" fill="none" stroke="#9c5de5" stroke-width="2"/>
+<text x="848" y="96" text-anchor="end" font-family="sans-serif" font-size="11" fill="#9c5de5">electrode_pop</text>
+<polyline points="72.0,48.0 228.0,48.0 384.0,48.0 540.0,379.3 696.0,394.5 852.0,391.0" fill="none" stroke="#f08c2e" stroke-width="2"/>
+<text x="848" y="112" text-anchor="end" font-family="sans-serif" font-size="11" fill="#f08c2e">clipping</text>
+<polyline points="72.0,48.0 228.0,48.0 384.0,48.0 540.0,48.0 696.0,48.0 852.0,48.0" fill="none" stroke="#4f6d7a" stroke-width="2"/>
+<text x="848" y="128" text-anchor="end" font-family="sans-serif" font-size="11" fill="#4f6d7a">dropout</text>
+<text x="18" y="223.0" text-anchor="middle" transform="rotate(-90 18 223.0)" font-family="sans-serif" font-size="12">ROC AUC</text>
+</svg>

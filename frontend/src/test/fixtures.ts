@@ -1,0 +1,88 @@
+import type { AnalysisResult } from "../types";
+
+export const analysisFixture: AnalysisResult = {
+  id: "analysis-123",
+  filename: "demo.csv",
+  profile: "ecg",
+  sample_rate: 250,
+  channel: "Channel 1",
+  model: "biosqi-test",
+  generated_at: "2026-08-20T12:00:00Z",
+  threshold: 0.65,
+  waveform: [
+    { x: 0, y: 0 },
+    { x: 0.5, y: 1 },
+    { x: 1, y: -0.2 },
+    { x: 1.5, y: 0.7 },
+    { x: 2, y: 0 },
+  ],
+  psd: [
+    { x: 0, y: 0.01 },
+    { x: 10, y: 0.5 },
+    { x: 20, y: 0.08 },
+  ],
+  windows: [
+    {
+      index: 0,
+      start: 0,
+      end: 1,
+      score: 0.88,
+      raw_score: 0.85,
+      quality: "good",
+      indicators: [
+        {
+          id: "noise",
+          label: "High-frequency stability",
+          value: 0.2,
+          normalized: 0.88,
+          weight: 0.25,
+          contribution: 0.095,
+          status: "good",
+          description: "Short-term variation relative to signal scale",
+        },
+      ],
+      artifacts: [],
+      psd: [{ x: 10, y: 0.5 }],
+    },
+    {
+      index: 1,
+      start: 1,
+      end: 2,
+      score: 0.42,
+      raw_score: 0.45,
+      quality: "poor",
+      indicators: [
+        {
+          id: "noise",
+          label: "High-frequency stability",
+          value: 1.8,
+          normalized: 0.3,
+          weight: 0.25,
+          contribution: -0.05,
+          status: "poor",
+          description: "Short-term variation relative to signal scale",
+        },
+      ],
+      artifacts: [
+        {
+          id: "motion",
+          label: "Motion or muscle noise",
+          contribution: 1,
+          confidence: 0.78,
+          color: "#c48636",
+        },
+      ],
+      psd: [{ x: 10, y: 0.8 }],
+    },
+  ],
+  summary: {
+    overall_score: 0.65,
+    usable_percent: 50,
+    good_windows: 1,
+    poor_windows: 1,
+    borderline_windows: 0,
+    total_windows: 2,
+    duration_seconds: 2,
+  },
+  warnings: [],
+};
