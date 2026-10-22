@@ -5,6 +5,7 @@
 [![Python 3.10-3.13](https://img.shields.io/badge/python-3.10--3.13-blue)](https://www.python.org/)
 [![Docs](https://img.shields.io/badge/docs-online-blue)](https://akshajbachu.github.io/biosqi/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23552709.svg)](https://doi.org/10.5281/zenodo.23552709)
 
 Transparent, calibrated biomedical signal-quality assessment for ECG, PPG, and
 EEG recordings.
@@ -140,7 +141,9 @@ Release history is in [CHANGELOG.md](CHANGELOG.md).
 
 If you use biosqi in research, please cite it. GitHub's **Cite this
 repository** button (from [`CITATION.cff`](CITATION.cff)) provides APA and
-BibTeX entries.
+BibTeX entries. The concept DOI
+[10.5281/zenodo.23552709](https://doi.org/10.5281/zenodo.23552709) always resolves to the latest
+version; each release also has its own version DOI on Zenodo.
 
 ## License
 

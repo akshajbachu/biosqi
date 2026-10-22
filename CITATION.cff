@@ -14,6 +14,14 @@ authors:
 version: 0.1.0
 date-released: 2026-10-22
 license: MIT
+doi: 10.5281/zenodo.23552709
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23552709
+    description: Concept DOI (all versions, resolves to the latest)
+  - type: doi
+    value: 10.5281/zenodo.23552710
+    description: Version 0.1.0
 repository-code: "https://github.com/akshajbachu/biosqi"
 url: "https://akshajbachu.github.io/biosqi"
 keywords:
