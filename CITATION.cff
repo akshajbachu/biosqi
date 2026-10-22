@@ -11,6 +11,7 @@ type: software
 authors:
   - given-names: "Akshaj"
     family-names: "Bachu"
+    orcid: "https://orcid.org/0009-0009-0038-6875"
 version: 0.1.0
 date-released: 2026-10-22
 license: MIT
